@@ -209,7 +209,89 @@ The objective of this tutorial is to understand quantum measurement, probability
 - Visualized probability distributions, measurement results, and state estimation using graphs and histograms.
 
 ---
+# Tutorial 6: Simon's Algorithm — Concept and Implementation
 
+## Objective
+
+The objective of this tutorial is to understand and implement Simon's algorithm, construct and verify Simon's oracle, obtain measurement equations, solve the resulting system of linear equations over GF(2), compare quantum and classical oracle-query requirements, and implement a generalized Simon's algorithm for arbitrary secret bitstrings.
+
+---
+
+## Software Used
+
+- Python
+- Jupyter Notebook
+- Qiskit
+- Qiskit Aer
+- NumPy
+- Pandas
+- Matplotlib
+
+---
+
+## Exercises Completed
+
+- ✅ Simon's Oracle for Secret String 110
+- ✅ Complete Simon's Algorithm for a 3-Bit Secret String
+- ✅ 4-Bit Simon's Algorithm and GF(2) Linear Equation Solving
+- ✅ Quantum vs Classical Oracle Query Comparison
+- ✅ Generalized Simon's Algorithm with All-Zero Edge Case
+
+---
+
+## Results
+
+- Successfully constructed and verified Simon's oracle for the secret string 110 using a complete truth table.
+- Verified the Simon condition f(x) = f(x ⊕ s) for all possible input combinations.
+- Obtained measurement bitstrings satisfying y · s = 0 mod 2.
+- Collected independent equations required to determine the hidden secret string.
+- Extended Simon's algorithm to a 4-bit secret string and solved the resulting equations over GF(2).
+- Compared quantum and classical oracle-query requirements and visualized the increasing speedup.
+- Implemented a generalized Simon's algorithm that accepts arbitrary secret bitstrings.
+- Successfully handled the all-zero secret-string edge case.
+- Visualized oracle circuits, measurement histograms, query complexity, and speedup using graphs.
+
+---
+# Tutorial 7: Deutsch's Algorithm — Demonstrating Quantum Advantage
+
+## Objective
+
+The objective of this tutorial is to understand Deutsch's algorithm and demonstrate how a quantum computer can determine whether a Boolean function is constant or balanced using a single quantum query.
+
+---
+
+## Software Used
+
+- Python
+- Jupyter Notebook
+- Qiskit
+- Qiskit Aer
+- NumPy
+- Matplotlib
+
+---
+
+## Exercises Completed
+
+- ✅ Constant Function f(x) = 0
+- ✅ Balanced Function f(x) = x
+- ✅ Generic Oracle Selection for All Four Boolean Functions
+- ✅ Phase Kickback and Binary Classification Application
+- ✅ Imperfect Hadamard Gate and Measurement Reliability
+
+---
+
+## Results
+
+- Successfully implemented Deutsch's algorithm for the constant function f(x) = 0 and obtained measurement result 0.
+- Implemented the balanced function f(x) = x and obtained measurement result 1.
+- Constructed a generic oracle-selection function for all four possible single-bit Boolean functions.
+- Verified that constant functions produce 0 while balanced functions produce 1.
+- Demonstrated the conceptual application of phase kickback to binary classification using a visual diagram.
+- Introduced a deliberate small Hadamard gate error and observed its effect on measurement reliability.
+- Visualized the effect of the gate error using a bar chart.
+- Demonstrated the quantum advantage of determining whether a Boolean function is constant or balanced using a single quantum query.
+---
 
 ## Author
 
